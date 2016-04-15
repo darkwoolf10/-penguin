@@ -8,9 +8,46 @@
 body{
 	background: url('img/regImg.jpg');
 }
-a:visited{
-	color: #900060;
+/*    стилі для меню    */
+
+i{
+	color: aliceblue;
+	margin: 6px;
 }
+div.nav a{
+	position: relative;
+	margin-top: 5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: black;
+	color: aliceblue;
+	border: 1px solid black;
+	text-decoration: none;
+	font:19px Tahoma, sans-serif;
+	display: block;
+	transition: all 1s ease-out;
+	cursor: pointer;
+}
+div.nav{
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*      Стилі для форми            */
 .form-row {
 	margin-bottom:60px;
 	overflow: hidden;
@@ -18,7 +55,6 @@ a:visited{
 
 input:focus{
 	outline: 0;
-	opacity: 0.9;
 }
 
 .form-row input{
@@ -32,6 +68,7 @@ input:focus{
 	font-weight: bold;
 	font-size: 15px;
 	box-shadow: 0 0 2px rgba(0,0,0,.4)inset;
+	color: darkblue;
 }
 #form {
 	width: 300px;
