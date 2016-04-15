@@ -295,20 +295,3 @@ form input, textarea:focus{border: 2px solid #FFA500}
     display: block;
 }
 
-footer, .page-wrap:after {height:10px}
-
-#page-wrap{
-
-margin-bottom:10px;
-}
-
-
-
-footer img{float:left;
-    margin-right:10 px;
-    }
-
-#vk {
-	font-size:2em;
-}
-
