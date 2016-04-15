@@ -5,12 +5,13 @@ div{
 .fon {
 	background: url('adventure-time.jpg') repeat-y;
 	height: 1000px;
+	border: 5px solid black;
 }
-.header {
-	
-	
-	background-color: black;
-}
+
+/*    Сам Гюнтер     */
+
+
+
 .gunter {
 	position: relative;
 	top: 550px;
@@ -32,6 +33,14 @@ div{
 	background-color:#fbf8e3;
 	border-radius: 130px 130px 0px 60px;
 }
+
+
+
+ /*     його лице     */
+
+
+
+
 .l-eye, .r-eye {
 	background: black;
 	height: 45px;
@@ -89,6 +98,11 @@ div{
         position: absolute;
         display: block;
 }
+
+
+/*      його кінцівки    */
+
+
 .l-arm, .r-arm {
 	position: relative;
 	background-color:#152734 ;

@@ -8,12 +8,18 @@
 body{
 	background: url('img/regImg.jpg');
 }
+a:visited{
+	color: #900060;
+}
 .form-row {
 	margin-bottom:60px;
 	overflow: hidden;
 }
+
 input:focus{
-	outline: 0;}
+	outline: 0;
+	opacity: 0.9;
+}
 
 .form-row input{
 	padding: 7px;
@@ -33,6 +39,9 @@ input:focus{
 }
 .in{
 	opacity: 0.6;
+}
+.in:active{
+	opacity: 0.9;
 }
 
 #submit {
