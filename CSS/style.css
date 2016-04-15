@@ -35,17 +35,19 @@ header{
 	margin-bottom: 20px;
 	color:
 }
-#search_sait {
-	
+
+/*    wrapper   */
+#main-page-wrap{
+position: relative;
+	min-height: 250%;
+	z-index: 10;
+	background-color: #eee;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+
 }
 
 
-footer{
- border-top:2px solid silver;
- margin-top: 10px;
- padding:1%;
-    padding-bottom: 2%;
-}
+
 a{  font-size:2em;
      color:blue;
      text-decoration:none;
@@ -90,12 +92,7 @@ input[type=search].field{
     padding: 5px;
     margin-left:20px;}
 
-footer {
-padding: 1%;
-border-top: 2 px solid silver;
-margin-top: 10px;
-padding-bottom: 2%;
-}
+
 
 #menu{
 color:#666;
@@ -118,6 +115,7 @@ width: 500px;
 }
 
 #wrapper {
+	position: relative;
 	float: left;
 	width: 100%;
 }
@@ -127,7 +125,7 @@ width: 500px;
 	margin-left: 10%;
 }
 article{
-float: left;
+	float: left;
 	width: 31.33333%;
 	border: 2px solid silver;
 	box-sizing: border-box;
@@ -166,10 +164,11 @@ height: 200px;}
 	
 }
 #wrapper #articles article a {
+	position: relative;
 	padding:5px;
 	background-color: orange;
 	margin-right: 1%;
-	margin-top: 300px;
+	top: 275px;
 	border-radius: 10px;
 	float: right;
 	color: black;
@@ -294,4 +293,40 @@ form input, textarea:focus{border: 2px solid #FFA500}
     content:"";
     display: block;
 }
+
+footer {
+	font-size: 10px;
+	position: relative;
+	margin-top: -15px;
+	width: 100%;
+	height: 150px;
+	z-index: -2;
+	padding-top: 40px;
+	background-color: #31353a;
+}
+footer ul {
+	width: 960px;
+	list-style-type: none;
+	position: fixed;
+	right: 15%;
+	bottom: 0;
+	margin-left: 400px;
+	padding-bottom: 40px;
+	z-index: -1
+}
+footer li{
+	width: 33.3333%;
+	float: left;
+	line-height: 25px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+
+}
+footer a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 
