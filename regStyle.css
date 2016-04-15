@@ -1,0 +1,55 @@
+@font-face{
+	font-family: RETROSCAPE;
+	src:url('retroscape.zip');
+}
+*{
+	font-family: RETROSCAPE;
+}
+body{
+	background: url('img/regImg.jpg');
+}
+.form-row {
+	margin-bottom:60px;
+	overflow: hidden;
+}
+input:focus{
+	outline: 0;}
+
+.form-row input{
+	padding: 7px;
+	height: 24px;
+	line-height: 19px;
+	padding: 0px 5px;
+	width: 250px;
+	border:1px solid #ABAdB3;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 15px;
+	box-shadow: 0 0 2px rgba(0,0,0,.4)inset;
+}
+#form {
+	width: 300px;
+	margin: 50px auto;
+}
+.in{
+	opacity: 0.6;
+}
+
+#submit {
+	cursor: pointer;
+	width: 260px;
+	border: 0px;
+	height: 25px;
+	color: black;
+	background-color: #eee;
+}
+#submit:hover {
+	transition: all 0.6s ease;
+	background: orange;
+}
+#submit:active, #submit:focus{
+	background: 0f529d;
+}
+#submit:active:before{
+	border-right-color:0f529d;
+}

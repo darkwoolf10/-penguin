@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>check in</title>
+	<link rel="stylesheet" type="text/css" href="regStyle.css" />
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bradley-gratis" type="text/css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		function valid (form)	{
+		 var fail = false;
+		 var name = form.name.value; 
+		 var email = form.email.value;
+		 var password = form.password.value;
+		 var RePassword = form.RePassword;
+		 var state = form.state.value;
+			if(name == "" || name == " ")
+				fail="ви не ввели ім'я";
+		else if (email.split('@').length - 1 == 0)
+			fail = "ви не правильн ввели email";
+			
+		else if (password == "")
+				fail = "вы не ввели пароль";
+			else if (password!=RePassword)
+				fail = "Паролі не співпадають";
+		else if (state == "")
+					fail ="ви не ввели стать";
+		if (fail)
+				alert(fail);
+			else
+	window.location = "http://google.com.ua";			
+				}
+	</script>
+</head>
+<body>
+	<div id="regMenu">
+		<ul class="regMenu" onclick="">
+			<li><a href="sait.html">Home</a></li>
+			<li><a href="about.html">about us</a></li>
+			<li><a href="#">content</a></li>
+			<li><a href="feedback.html">feedback</a></li>
+			<li><a href="form/index.html">search</a></li>
+		</ul>
+	</div>
+<center>
+<form action="" method="post" name="test" id="form">
+	<lable for="name">Name:</lable>
+	<div class="form-row in"><input type="text" name="name" placeholder="Имя" id="name" /></div>
+	<label for="email">email:</label>
+	<div class="form-row in"><input type="email" name="email" placeholder="введіть email" id="email"></div>
+	<lable for="password">Password:</lable>
+		<div class="form-row in"><input type="password" name="password" placeholder="Пароль" id="password"/></div>
+	<lable for="RePassword">Verify Password:</lable>
+		<div class="form-row in"><input type="password" name="RePassword" placeholder="повторіть пароль" id="RePassword"/></div>
+	<!--What is your sex?:<br />
+		<span><div class="radio"><input type="radio" name="state" id="state" value="Man" /></div>
+			<label for="male">Man</label></span>
+		<span><div class="radio"><input type="radio" name="state" id="state" value="Man" /></div>
+	<label for="female">women</label><br /><br />-->
+		<div class="form-row"><input type="button" id="submit" onclick="valid(document.getElementById('form'))" name="submit" value="готово!"/></div>
+		
+	</form>
+	</center>
+</body>
+</html>

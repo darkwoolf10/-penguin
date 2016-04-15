@@ -1,0 +1,108 @@
+div{
+	margin: 0px;
+	padding: 0px;
+}
+div div{
+	background-color: #a4ca39;
+	position: relative;
+}
+.android {
+	width:334px;
+	height:402px;
+	margin: 100px auto;
+}
+.header {
+	width: 220px;
+	height: 100px;
+	border-radius: 110px 110px 0 0;
+	top: 30px;
+}
+.l-eye, .r-eye {
+	background: #fff;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 42px;
+	border-radius:10px;
+}
+.l-eye{
+	left: 50px;
+}
+.r-eye{
+	right: 50px;
+}
+.l-us, .r-us {
+	width: 6px;
+	height: 50px;
+	position: absolute;
+	border-radius: 3px;
+	top: -34px;
+}
+.l-us {
+	left: 50px;
+	transform: rotate(-30deg);
+}
+.r-us {
+	right: 50px;
+	transform: rotate(30deg);
+}
+.body {
+	width:220px ;
+	height: 184px;
+	top: 40px;
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+.l-arm, .r-arm, .l-foot, .r-foot{
+	width: 50px;
+	position: absolute;
+}
+.l-arm, .r-arm{
+	height: 150px;
+	border-radius: 25px;
+}
+.l-arm{
+	left:-58px;
+}
+.r-arm {
+	right: -58px;
+}
+.l-foot, .r-foot{
+	height: 87px;
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	top: 184px;
+}
+.l-foot{
+	left:  45px;
+}
+.r-foot{
+	right:  45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,314 @@
+@charset "UTF-8"
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+hr{
+display: block;
+	height: 1px;
+	border-top: 2px solid #ccc;
+	padding: 0;
+}
+
+body {
+ width: 99%;
+ height: 100%;
+ background: #f7f7f7;
+ font-size: 1em;
+ font-family: "Segoe UI", sans-serif;
+ line-height: 135%;
+}
+
+html{height: 100%}
+
+header, footer {
+ width:98%;
+ background-color:#fff;
+ min-height:50px;
+float:left;
+}
+
+header{
+ border-bottom:2px solid silver;
+ padding:1%;
+	margin-bottom: 20px;
+	color:
+}
+#search_sait {
+	
+}
+
+
+footer{
+ border-top:2px solid silver;
+ margin-top: 10px;
+ padding:1%;
+    padding-bottom: 2%;
+}
+a{  font-size:2em;
+     color:blue;
+     text-decoration:none;
+     transition:all .6s ease;
+     -moz-transition:all .6s ease;
+     -webkit-transition:all.6s ease;
+     -ms-transition:all.6s ease;
+}
+
+a:hover{
+ color: green;
+ text-decoration:none;
+ transition:all.6s ease;
+ -moz-transition:all.6s ease;
+ -webkit-transition:all.6s ease;
+ -ms-transition:all.6s ease;
+}
+
+a:active{color: greenyellow;}
+
+    .right{float: right;
+	padding-left: 10px;}
+
+    .login{float: right;}
+
+img{
+ max-width: 100%;
+    height:auto;
+    width:auto/9;/*для интернет експловер*/
+}
+textarea, input:focus{
+    background-color:black;
+	color:whitesmoke;
+	font-family:monospace;
+}
+
+#logo{font-size:2em;}
+
+input[type=search].field{
+    border-radius: 5px;
+    border:2px solid silver;
+    padding: 5px;
+    margin-left:20px;}
+
+footer {
+padding: 1%;
+border-top: 2 px solid silver;
+margin-top: 10px;
+padding-bottom: 2%;
+}
+
+#menu{
+color:#666;
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 1.9em;
+
+}
+
+#menu hr{
+width: 500px;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#menuHref a {
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 5px;
+	font-size: 25px;
+}
+
+#wrapper {
+	float: left;
+	width: 100%;
+}
+#articles {
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+}
+article{
+float: left;
+	width: 31.33333%;
+	border: 2px solid silver;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #fafafa;
+	margin-right: 2%;
+	min-height: 400px;
+	margin-top: 15px;
+}
+
+/*центральна панель*/
+#panel{width:100%;
+	   padding: 2% 0;
+		border-bottom: 2px solid silver;
+		border-top: 2px solid silver;
+		margin:20px 0;
+		float:left;
+		background: url('../img/94.jpg')repeat-x center;
+height: 200px;}
+#panel_in {
+	text-align: center;
+	padding: 1%;
+	height: 100px;
+	width: 500px;
+	border-radius: 7px;
+	background: url('../img/cub.jpg');
+	border: 2px solid silver;
+}
+#panel_in a {
+	width: 180px;
+	float: right;
+	padding: 10px;
+	padding-top: 10px;
+	background-color:#e9af32;
+	border-radius: 8px;
+	
+}
+#wrapper #articles article a {
+	padding:5px;
+	background-color: orange;
+	margin-right: 1%;
+	margin-top: 300px;
+	border-radius: 10px;
+	float: right;
+	color: black;
+}
+#wrapper #articles article a:hover{
+background-color: #7feb6d;
+}
+#newYear {
+	background: url(../img/openSait.jpg)
+}
+/*Стилі для сторінки "про нас"*/
+#about {
+	height: 100%;
+	width: 100%;
+	float: left;
+	color: black;
+	background:url(../img/mercenary.jpg);
+	border-radius: 5px;
+	border:1px solid silver;
+	box-sizing: border-box;
+	padding: 1%;
+	margin-top: 10px;
+	font-size: 1.4em;
+}
+/*Стилі для зворотнього звязку*/
+#feedback{
+	width: 100%;
+	height: 100%;
+	border-radius:10px;
+	background:url(../img/sith.jpg);
+}
+#clone {
+		background: url('../img/clone.png') repeat-x;
+}
+/* Стилі для форм */
+form{
+	margin-top: 20px;
+	width: 60%;
+	margin-left: 20%;
+	float: left;
+}
+form label{
+	color: orangered;
+	font-size: 1.5em;
+	float: left;
+	width: 100%;
+	margin-bottom: -10px;
+}
+form input{
+    border-radius: 5px;
+    border:0px solid silver;
+    padding: 5px;
+	float: left;
+	clear: both;
+	margin-bottom: -10px;
+	width: 100%;
+}
+form textarea{
+	height: 200px;
+	width: 99%;
+	float: left;
+	clear: both;
+	border: 1px solid orangered;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 1.4em;
+	margin-top: 15px;
+}
+
+form #send{
+	float: left;
+	padding: 10px;
+	background-color: black;
+	border-radius: 8px;
+	margin-top: 10px;
+	width: 101.5%;
+	color: white;
+	cursor: pointer;
+	font-size: 1.2em;
+}
+form #send:hover{
+	transition: all 0.8s ease;
+	background-color:orangered;
+	-moz-transition:all 0.8s ease;
+     -webkit-transition:all 0.8s ease;
+     -ms-transition:all 0.8s ease;
+}
+form input, textarea:focus{border: 2px solid #FFA500}
+/*Стилі для регестрації*/
+
+#regHeader {
+	margin-left: 1%;
+	margin-top: 1%;
+	font-family: sans-serif;
+	height: 5%;
+	width: 99%%;
+}
+#regHr {
+	display: block;
+	height: 1px;
+	border-top: 2px solid black;
+	padding: 0;
+}
+/* Стилі для входу */
+
+#enter{
+	height: 100%;
+	width: 100%;
+	float: left;
+	color: black;
+	background:url(../img/mercenary.jpg);
+	border-radius: 5px;
+	border:1px solid silver;
+	box-sizing: border-box;
+	padding: 1%;
+	margin-top: 10px;
+	font-size: 1.4em;
+}
+
+/*Стилі для футер*/
+#page-wrap:after{
+    content:"";
+    display: block;
+}
+
+footer, .page-wrap:after {height:10px}
+
+#page-wrap{
+
+margin-bottom:10px;
+}
+
+
+
+footer img{float:left;
+    margin-right:10 px;
+    }
+
+#vk {
+	font-size:2em;
+}
+

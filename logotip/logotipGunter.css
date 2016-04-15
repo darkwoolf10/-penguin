@@ -1,0 +1,46 @@
+div{
+	margin: 0px;
+	padding: 0px;
+}
+.gunter {
+	height: 426px;
+	width: 262px;
+	margin: 100px auto;
+}
+.body-black {
+	height: 427px;
+	width: 234px;
+	background-color: #152734;
+	border-radius: 110px 110px 30px 40px;
+}
+.body-white {
+	top: 25px;
+	position: relative;
+	height: 402px;
+	width: 168px;
+	background-color:#fbf8e3;
+	border-radius: 130px 130px 0px 40px;
+}
+.l-eye, .r-eye {
+	background: black;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	top: 50px;
+	border-radius:50px;
+}
+.l-eye{
+	left: 5px
+}
+.r-eye {
+	left: 100px;
+}
+.l-pupil, .r-pupil {
+	background: #fff;
+	width: 20px;
+	height: 20px;
+	top: 5px;
+	left: 4px;
+	position: absolute;
+	border-radius: 50px;
+}
