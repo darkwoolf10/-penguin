@@ -8,6 +8,7 @@
 body{
 	background: url('img/regImg.jpg');
 }
+
 /*    стилі для меню    */
 
 i{
@@ -26,30 +27,19 @@ div.nav a{
 	text-decoration: none;
 	font:19px Tahoma, sans-serif;
 	display: block;
-	transition: all 1s ease-out;
 	cursor: pointer;
 }
-div.nav{
-	margin: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 /*      Стилі для форми            */
+.forma{
+	text-align: center;
+
+}
 .form-row {
-	margin-bottom:60px;
+	margin-bottom:30px;
 	overflow: hidden;
 }
 
@@ -67,9 +57,10 @@ input:focus{
 	border-radius: 5px;
 	font-weight: bold;
 	font-size: 15px;
-	box-shadow: 0 0 2px rgba(0,0,0,.4)inset;
+	box-shadow: 0 0 3px rgba(0,0,0,.4)inset;
 	color: darkblue;
 }
+
 #form {
 	width: 300px;
 	margin: 50px auto;
@@ -99,3 +90,7 @@ input:focus{
 #submit:active:before{
 	border-right-color:0f529d;
 }
+
+/*    cтилі для футера      */
+
+

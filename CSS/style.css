@@ -98,7 +98,7 @@ input[type=search].field{
 color:#666;
 	font-family: Comic Sans MS, sans-serif;
 	font-size: 1.9em;
-
+padding-bottom:25px;
 }
 
 #menu hr{
@@ -163,7 +163,7 @@ height: 200px;}
 	border-radius: 8px;
 	
 }
-#wrapper #articles article a {
+ #articles article a {
 	position: relative;
 	padding:5px;
 	background-color: orange;
@@ -195,9 +195,10 @@ background-color: #7feb6d;
 }
 /*Стилі для зворотнього звязку*/
 #feedback{
+	margin-top: 10px;
 	width: 100%;
-	height: 100%;
-	border-radius:10px;
+	height: 120%;
+	border-radius:0px;
 	background:url(../img/sith.jpg);
 }
 #clone {
@@ -205,7 +206,6 @@ background-color: #7feb6d;
 }
 /* Стилі для форм */
 form{
-	margin-top: 20px;
 	width: 60%;
 	margin-left: 20%;
 	float: left;
@@ -213,17 +213,14 @@ form{
 form label{
 	color: orangered;
 	font-size: 1.5em;
-	float: left;
 	width: 100%;
-	margin-bottom: -10px;
 }
 form input{
     border-radius: 5px;
-    border:0px solid silver;
     padding: 5px;
 	float: left;
 	clear: both;
-	margin-bottom: -10px;
+	margin-bottom: 20px;
 	width: 100%;
 }
 form textarea{
@@ -244,7 +241,7 @@ form #send{
 	background-color: black;
 	border-radius: 8px;
 	margin-top: 10px;
-	width: 101.5%;
+	width: 102%;
 	color: white;
 	cursor: pointer;
 	font-size: 1.2em;
