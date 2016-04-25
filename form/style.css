@@ -6,6 +6,10 @@ i{
 	color: aliceblue;
 	margin: 6px;
 }
+i:hover{
+	color: darkorange;
+	transition:all.2s ease;
+}
 div.nav a{
 	position: relative;
 	margin-top: 5px;

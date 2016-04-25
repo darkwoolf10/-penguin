@@ -5,41 +5,41 @@
     padding: 0;
 }
 hr{
-display: block;
+	display: block;
 	height: 1px;
 	border-top: 2px solid #ccc;
 	padding: 0;
 }
 
 body {
- width: 99%;
- height: 100%;
- background: #f7f7f7;
- font-size: 1em;
- font-family: "Segoe UI", sans-serif;
- line-height: 135%;
+	 width: 99%;
+	 height: 100%;
+	 background: #f7f7f7;
+	 font-size: 1em;
+	 font-family: "Segoe UI", sans-serif;
+	 line-height: 135%;
 }
 
 html{height: 100%}
 
 header, footer {
- width:98%;
- background-color:#fff;
- min-height:50px;
-float:left;
+	 width:98%;
+	 background-color:#fff;
+	 min-height:50px;
+	 float:left;
 }
 
 header{
- border-bottom:2px solid silver;
- padding:1%;
+ 	border-bottom:2px solid silver;
+ 	padding:1%;
 	margin-bottom: 20px;
-	color:
+	padding-bottom: 0px;
 }
 
 /*    wrapper   */
 #main-page-wrap{
-position: relative;
-	min-height: 250%;
+	position: relative;
+	min-height: 215%;
 	z-index: 10;
 	background-color: #eee;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
@@ -58,7 +58,7 @@ a{  font-size:2em;
 }
 
 a:hover{
- color: green;
+ color: darkviolet;
  text-decoration:none;
  transition:all.6s ease;
  -moz-transition:all.6s ease;
@@ -95,14 +95,14 @@ input[type=search].field{
 
 
 #menu{
-color:#666;
+	color:#666;
 	font-family: Comic Sans MS, sans-serif;
 	font-size: 1.9em;
-padding-bottom:25px;
+	padding-bottom:25px;
 }
 
 #menu hr{
-width: 500px;
+	width: 500px;
 	max-width: 100%;
 	margin-top: 5px;
 	margin-bottom: 10px;
@@ -137,14 +137,15 @@ article{
 }
 
 /*центральна панель*/
-#panel{width:100%;
-	   padding: 2% 0;
-		border-bottom: 2px solid silver;
-		border-top: 2px solid silver;
-		margin:20px 0;
-		float:left;
-		background: url('../img/94.jpg')repeat-x center;
-height: 200px;}
+#panel{ 
+	width:100%;
+	padding: 2% 0;
+	border-bottom: 2px solid silver;
+	border-top: 2px solid silver;
+	margin:20px 0;
+	float:left;
+	background: url('../img/94.jpg')repeat-x center;
+	height: 200px;}
 #panel_in {
 	text-align: center;
 	padding: 1%;
@@ -197,7 +198,7 @@ background-color: #7feb6d;
 #feedback{
 	margin-top: 10px;
 	width: 100%;
-	height: 120%;
+	height: 100%;
 	border-radius:0px;
 	background:url(../img/sith.jpg);
 }
