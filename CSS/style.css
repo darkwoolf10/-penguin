@@ -39,7 +39,7 @@ header{
 /*    wrapper   */
 #main-page-wrap{
 	position: relative;
-	min-height: 215%;
+	min-height: 185%;
 	z-index: 10;
 	background-color: #eee;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
@@ -168,7 +168,7 @@ article{
 	position: relative;
 	padding:5px;
 	background-color: orange;
-	margin-right: 1%;
+	margin: 1%;
 	top: 275px;
 	border-radius: 10px;
 	float: right;
@@ -178,7 +178,8 @@ article{
 background-color: #7feb6d;
 }
 #newYear {
-	background: url(../img/openSait.jpg)
+	background: url(../img/santa.jpg);
+	background-size:120%; 
 }
 /*Стилі для сторінки "про нас"*/
 #about {
@@ -272,19 +273,20 @@ form input, textarea:focus{border: 2px solid #FFA500}
 }
 /* Стилі для входу */
 
-#enter{
-	height: 100%;
-	width: 100%;
-	float: left;
-	color: black;
-	background:url(../img/mercenary.jpg);
-	border-radius: 5px;
-	border:1px solid silver;
-	box-sizing: border-box;
-	padding: 1%;
-	margin-top: 10px;
-	font-size: 1.4em;
+#log_in{
+
 }
+/*
+___________________________________________________
+
+Стилі Для Content!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+___________________________________________________
+*/
+
+
+
+
+
 
 /*Стилі для футер*/
 #page-wrap:after{

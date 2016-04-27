@@ -1,3 +1,6 @@
+*{
+	background-color:  #FF5F00;
+}
 div{
 	margin: 0px;
 	padding: 0px;
@@ -9,7 +12,7 @@ div div{
 .android {
 	width:334px;
 	height:402px;
-	margin: 100px auto;
+	margin: 150px auto;
 }
 .header {
 	width: 220px;
