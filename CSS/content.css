@@ -45,9 +45,125 @@ body {
 	padding: 20px;
 	transition:all 0.8s ease;
 }
-.content i{
+.content .none i{
+	transform:rotate(90deg);
 	cursor: pointer;
 }
 .open {
 	transform: translateX(250px);
 }
+
+.content .none input{
+	display: none;
+}
+.content i {
+	transition: all 0.8s ease;
+}
+.content input:checked + i{
+	transform:rotate(180deg);
+}
+.content_title {
+	font-size: 30px;
+	text-align: center;
+}
+/*            стилі для входу                    */
+
+
+.email_address, .password {
+	margin: 10px;
+}
+#enter{
+	position: relative;
+	top: 35%;
+	left:40%;
+}
+
+#enter input{
+	font-weight: bold;
+	height: 30px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 5px 0px 0px 5px;
+}
+#enter i{
+	color:antiquewhite;
+}
+.submit {
+	border: 1px;
+	position: relative;
+	top: 1px;
+	right: 4.5px;
+	height: 42px;
+	width: 50px;
+	background-color: #222;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 0px 5px 5px 0px;
+}
+.submit:hover {
+	background-color:#333;
+}
+input{
+	padding: 5px;
+}
+.submit, input:focus { outline: none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================*/
+/* ------- статі -----------     */
+/*===============================*/
+.my_works{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
